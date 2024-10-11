@@ -1,0 +1,65 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  font-family: "roboto";
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  flex-direction: column;
+  gap: 20px;
+}
+li {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 400;
+  width: 400px;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 200px;
+}
+
+input {
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  border: 1px solid;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.listSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3em;
+  text-align: left;
+}
